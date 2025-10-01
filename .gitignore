@@ -34,13 +34,12 @@ ENV/
 # VS Code
 .vscode/
 
-# Model checkpoints and outputs (except for final deliverables)
-checkpoints/checkpoint_epoch_*.pth
-*.pth.tar
+# Model checkpoints and outputs
+checkpoints/
+outputs/
 
 # Data files (can be large)
-data/kaggle/
-data/raw/
+data/
 *.zip
 
 # Logs
